@@ -12,6 +12,10 @@ public class Hello {
 		Multiplier multiplier= new Multiplier();
 		int m1=multiplier.multiplication(10, 11);
 		System.out.println(m1);
+		
+		Diviser diviser= new Diviser();
+		int d1=diviser.division(10, 5);
+		System.out.println(d1);
 
 	}
 	

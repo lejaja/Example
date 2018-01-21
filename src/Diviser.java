@@ -7,7 +7,12 @@ public class Diviser {
 		super();
 		this.a = a;
 		this.b = b;
+	}	
+	
+	public Diviser() {
+		super();
 	}
+
 	public int getA() {
 		return a;
 	}
@@ -21,4 +26,7 @@ public class Diviser {
 		this.b = b;
 	}
 	 
+	public int division(int a, int b){
+		return a/b;
+	}
 }
