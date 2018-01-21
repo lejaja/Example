@@ -8,6 +8,10 @@ public class Hello {
 		int h2=hello.soustraire(10,8);
 		System.out.println(h1);
 		System.out.println(h2);
+		
+		Multiplier multiplier= new Multiplier();
+		int m1=multiplier.multiplication(10, 11);
+		System.out.println(m1);
 
 	}
 	
